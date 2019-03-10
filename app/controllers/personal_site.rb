@@ -6,7 +6,7 @@ class PersonalSite
     when '/' then index
     when '/about' then about
     when '/main.css' then css
-    # when '/error.css' then css_red
+    when '/error.css' then css_red
     else
       error
     end
